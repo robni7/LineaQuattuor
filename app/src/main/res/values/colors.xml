@@ -3,8 +3,14 @@
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="beige_100">#FFECDECA</color>
+    <color name="beige_200">#FFCFC3B2</color>
+    <color name="beige_500">#FFBFB4A4</color>
+    <color name="beige_700">#FFA1988A</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+    <color name="aubergine_200">#FF4B3157</color>
+    <color name="aubergine_700">#FF32213A</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
