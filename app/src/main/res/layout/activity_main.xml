@@ -7,16 +7,16 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/info_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:hint="Hier had uw advertentie kunnen staan."
+            android:hint="@string/text_hint"
             android:lines="2"
             android:textSize="22sp"
             android:typeface="normal" />
@@ -26,183 +26,171 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal">
-        <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_margin="1dp"
-                    android:background="#bbbbbb">
-                </ImageView>
-                <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="1dp"
-            android:background="#bbbbbb">
-        </ImageView>
-                <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="1dp"
-            android:background="#bbbbbb">
-        </ImageView>
-                <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="1dp"
-            android:background="#bbbbbb">
-        </ImageView>
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_margin="1dp"
-                    android:background="#bbbbbb">
-                </ImageView>
-                <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="1dp"
-            android:background="#bbbbbb">
-        </ImageView>
-                <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_margin="1dp"
-            android:background="#bbbbbb">
-        </ImageView>
-            </TableRow>
+
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    android:contentDescription="A1">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    android:contentDescription="A2">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    android:contentDescription="A3">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    android:contentDescription="A4">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    android:contentDescription="A5">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    android:contentDescription="A6">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    android:contentDescription="A7">
                 </ImageView>
             </TableRow>
+
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb"
+                    tools:ignore="ContentDescription">
+                </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb"
+                    android:contentDescription="B4">
+                </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
-                </ImageView>
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_margin="1dp"
-                    android:background="#bbbbbb">
-                </ImageView>
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#bbbbbb"
+                    tools:ignore="ContentDescription">
                 </ImageView>
             </TableRow>
+
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
@@ -210,45 +198,53 @@
                     android:background="#bbbbbb">
                 </ImageView>
             </TableRow>
+
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
@@ -256,45 +252,53 @@
                     android:background="#bbbbbb">
                 </ImageView>
             </TableRow>
+
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#bbbbbb">
                 </ImageView>
+
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
@@ -302,45 +306,107 @@
                     android:background="#bbbbbb">
                 </ImageView>
             </TableRow>
+
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="1dp"
+                    android:background="#bbbbbb">
+                </ImageView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa">
                 </Button>
+
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa">
                 </Button>
+
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa">
                 </Button>
+
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa">
                 </Button>
+
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa">
                 </Button>
+
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa">
                 </Button>
+
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
