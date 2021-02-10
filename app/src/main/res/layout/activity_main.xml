@@ -15,9 +15,9 @@
             android:id="@+id/info_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="26dp"
-            android:layout_marginRight="26dp"
-            android:layout_marginVertical="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="4dp"
             android:fontFamily="sans-serif-medium"
             android:hint="@string/text_hint"
             android:lines="2"
@@ -415,6 +415,9 @@
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="18sp"
+                    android:onClick="columnButtonClicked"
                     android:text="A">
                 </Button>
 
@@ -423,6 +426,9 @@
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="18sp"
+                    android:onClick="columnButtonClicked"
                     android:text="B">
                 </Button>
 
@@ -431,6 +437,9 @@
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="18sp"
+                    android:onClick="columnButtonClicked"
                     android:text="C">
                 </Button>
 
@@ -439,6 +448,9 @@
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="18sp"
+                    android:onClick="columnButtonClicked"
                     android:text="D">
                 </Button>
 
@@ -447,6 +459,9 @@
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="18sp"
+                    android:onClick="columnButtonClicked"
                     android:text="E">
                 </Button>
 
@@ -455,6 +470,9 @@
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="18sp"
+                    android:onClick="columnButtonClicked"
                     android:text="F">
                 </Button>
 
@@ -463,6 +481,9 @@
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
                     android:background="#aaaaaa"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="18sp"
+                    android:onClick="columnButtonClicked"
                     android:text="G">
                 </Button>
             </TableRow>
