@@ -20,13 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private Button columnButton;
     private int column;
     private int mycolor;
-
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-        mycolor = (getColor(R.color.teal_200));
-    } else {
-        mycolor = (getResources().getColor(R.color.teal_200));
-    }
-
+    private int colorPlayer1;
+    private int colorPlayer2;
     private String columnLetter;
 
 
@@ -73,13 +68,14 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
         }
 
         // further code to make the move and process the row returned
-        if (mycolor == ContextCompat.getColor(getResources(), R.color.teal_200)) {
+
+        if (mycolor == colorPlayer1) {
             showDisc(6, column, mycolor);
-            mycolor = ContextCompat.getColor(getResources(), R.color.aubergine_200);
+            mycolor = colorPlayer2;
             info("All eyes on you, player two! ");
         } else {
             showDisc(6, column, mycolor);
-            mycolor = ContextCompat.getColor(getResources(), R.color.teal_200);
+            mycolor = colorPlayer1;
             info("Show ’em how it’s done, player one!");
         }
     }
@@ -92,6 +88,14 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
         info("Player one, you’re up!"); // Betekent zoveel als infoTextView.setText(" Player etc.");
         boardTableLayout = findViewById(R.id.board_tablelayout); // Het speelbord, dus de tabel uit de XML
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            colorPlayer1 = (getColor(R.color.forest_200));
+            colorPlayer2 = (getColor(R.color.aubergine_200));
+        } else {
+            colorPlayer1 = (getResources().getColor(R.color.forest_200));
+            colorPlayer2 = (getResources().getColor(R.color.aubergine_200));
+        }
+        mycolor = colorPlayer1;
     }
 
 }
