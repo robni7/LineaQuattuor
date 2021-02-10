@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:hint="@string/text_hint"
             android:lines="2"
             android:textSize="22sp"
-            android:typeface="normal" />
+            android:typeface="normal"/>
 
         <TableLayout
             android:id="@+id/board_tablelayout"
@@ -35,56 +35,63 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="A1">
+                    android:background="#aaaaaa"
+                    android:contentDescription="A1"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="A2">
+                    android:background="#aaaaaa"
+                    android:contentDescription="A2"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="A3">
+                    android:background="#aaaaaa"
+                    android:contentDescription="A3"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="A4">
+                    android:background="#aaaaaa"
+                    android:contentDescription="A4"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="A5">
+                    android:background="#aaaaaa"
+                    android:contentDescription="A5"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="A6">
+                    android:background="#aaaaaa"
+                    android:contentDescription="A6"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="A7">
+                    android:background="#aaaaaa"
+                    android:contentDescription="A7"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
             </TableRow>
 
@@ -96,7 +103,8 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle"
                     tools:ignore="ContentDescription">
                 </ImageView>
 
@@ -104,43 +112,49 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
-                    android:contentDescription="B4">
+                    android:background="#aaaaaa"
+                    android:contentDescription="B4"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb"
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle"
                     tools:ignore="ContentDescription">
                 </ImageView>
             </TableRow>
@@ -153,49 +167,56 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
             </TableRow>
 
@@ -207,49 +228,56 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
             </TableRow>
 
@@ -261,49 +289,56 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
             </TableRow>
 
@@ -315,49 +350,56 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
 
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#bbbbbb">
+                    android:background="#aaaaaa"
+                    android:src="@drawable/img_cutout_circle">
                 </ImageView>
             </TableRow>
 
@@ -369,49 +411,56 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#aaaaaa">
+                    android:background="#aaaaaa"
+                    android:text="A">
                 </Button>
 
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#aaaaaa">
+                    android:background="#aaaaaa"
+                    android:text="B">
                 </Button>
 
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#aaaaaa">
+                    android:background="#aaaaaa"
+                    android:text="C">
                 </Button>
 
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#aaaaaa">
+                    android:background="#aaaaaa"
+                    android:text="D">
                 </Button>
 
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#aaaaaa">
+                    android:background="#aaaaaa"
+                    android:text="E">
                 </Button>
 
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#aaaaaa">
+                    android:background="#aaaaaa"
+                    android:text="F">
                 </Button>
 
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_margin="1dp"
-                    android:background="#aaaaaa">
+                    android:background="#aaaaaa"
+                    android:text="G">
                 </Button>
             </TableRow>
         </TableLayout>
