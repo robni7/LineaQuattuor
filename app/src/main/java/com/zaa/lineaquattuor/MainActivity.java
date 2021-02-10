@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         infoTextView = findViewById(R.id.info_textview); // Haalt de XML-textview op
-        info(" Player one is up."); // Betekent zoveel als infoTextView.setText(" Player etc."); Quick hack: spatie voor het bericht tbv gebrek aan padding.
+        info("Player one is up."); // Betekent zoveel als infoTextView.setText(" Player etc.");
         boardTableLayout = findViewById(R.id.board_tablelayout); // Het speelbord, dus de tabel uit de XML
 
     }
