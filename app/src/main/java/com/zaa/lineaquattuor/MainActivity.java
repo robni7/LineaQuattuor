@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private int colorPlayer2;
     private String columnLetter;
 
+    private FourInARowGame fourInARowGame = new FourInARowGame();
 
     private void info(String theInfo) {
         infoTextView.setText(theInfo);
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         // further code to make the move and process the row returned
 
-        int rowToDrop=6;
+        int rowToDrop = fourInARowGame.dropDisc(column);
 
         while (((ColorDrawable)getBoardImageView(rowToDrop-1, column-1).getBackground()).getColor()!=Color.parseColor("#aaaaaa")) {
             rowToDrop--; // decrement the rowToDrop value by one for as many times as there are disks already dropped
