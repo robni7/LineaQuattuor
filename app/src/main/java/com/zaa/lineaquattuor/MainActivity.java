@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -69,12 +70,22 @@ public class MainActivity extends AppCompatActivity {
 
         // further code to make the move and process the row returned
 
+        int rowToDrop=6;
+
+        while (((ColorDrawable)getBoardImageView(rowToDrop-1, column-1).getBackground()).getColor()!=Color.parseColor("#aaaaaa")) {
+            rowToDrop--; // decrement the rowToDrop value by one for as many times as there are disks already dropped
+        }
+
+        if (rowToDrop==1) {
+            columnButton.setEnabled(false); // disables the column button when the entire column is full of disks
+        }
+
         if (mycolor == colorPlayer1) {
-            showDisc(6, column, mycolor);
+            showDisc(rowToDrop, column, mycolor);
             mycolor = colorPlayer2;
             info("All eyes on you, player two! ");
         } else {
-            showDisc(6, column, mycolor);
+            showDisc(rowToDrop, column, mycolor);
             mycolor = colorPlayer1;
             info("Show ’em how it’s done, player one!");
         }
