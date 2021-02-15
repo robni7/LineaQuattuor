@@ -1,8 +1,5 @@
 package com.zaa.lineaquattuor;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
-
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
@@ -13,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -89,6 +88,22 @@ public class MainActivity extends AppCompatActivity {
             showDisc(rowToDrop, column, mycolor);
             mycolor = colorPlayer1;
             info("Show ’em how it’s done, player one!");
+        }
+
+        int gameResult = fourInARowGame.getResult();
+        if (gameResult != 0) {
+            endOfGame(gameResult);
+        }
+    }
+
+    private void endOfGame(int theResult) {
+        TableRow tableButtonRow = (TableRow) boardTableLayout.getChildAt(6);
+        for (int columnIndex = 6; columnIndex >= 0; columnIndex--) {
+            tableButtonRow.getChildAt(columnIndex).setEnabled(false);
+        }
+        if (theResult == -1) info("What a absolutely spectacular match! It ended in a tie.");
+        else {
+            info("What a match! Player " + theResult + " has taken the win!");
         }
     }
 
