@@ -1,5 +1,7 @@
 package com.zaa.lineaquattuor;
 
+// LineaQuattuor - Software by Zaa (2021)
+
 public class FourInARowGame {
 
     private int[] savedNumberOfEmptyColumnCells = {6, 6, 6, 6, 6, 6, 6};

@@ -1,5 +1,7 @@
 package com.zaa.lineaquattuor;
 
+// LineaQuattuor - Software by Zaa (2021)
+
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
