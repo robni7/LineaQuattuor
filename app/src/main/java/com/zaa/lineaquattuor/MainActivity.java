@@ -101,9 +101,9 @@ public class MainActivity extends AppCompatActivity {
         for (int columnIndex = 6; columnIndex >= 0; columnIndex--) {
             tableButtonRow.getChildAt(columnIndex).setEnabled(false);
         }
-        if (theResult == -1) info("What a spectacular match! It ended in a tie.");
+        if (theResult == -1) info("What a absolutely spectacular match! It ended in a tie.");
         else {
-            info("What a match! Player " + theResult + "has taken the win!");
+            info("What a match! Player " + theResult + " has taken the win!");
         }
     }
 

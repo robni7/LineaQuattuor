@@ -16,7 +16,7 @@ public class FourInARowGame {
 
     public int dropDisc(int theColumn) {
         if (theColumn >= 1 && theColumn <= 7) { // We need to only accept a valid input
-            theColumn = lastColumn; // Remember the last column that the disk was dropped in
+            lastColumn = theColumn; // Remember the last column that the disk was dropped in
             emptyColumnCells = savedNumberOfEmptyColumnCells[theColumn - 1]; // Haal het aantal lege cellen op (min 1 want arrays beginnen met 0) en plaats in tijdelijke int
             if (emptyColumnCells > 0) { // If there are any empty cells left in this column, then the drop is valid. We will do the following:
                 savedNumberOfEmptyColumnCells[theColumn - 1] = emptyColumnCells - 1; // Decrement the saved array by one
@@ -33,10 +33,7 @@ public class FourInARowGame {
         // Step 1 of remembering the 4-in-a-row cells: remember the current cell
         cellIndicesWhoWon[3][0] = emptyColumnCells - 1;
         cellIndicesWhoWon[3][1] = lastColumn - 1;
-        if (fourInARowHorizontally() || fourInARowVertically() || fourInARowDiagonally() || fourInARowReverseDiagonally()) {
-            return true;
-        }
-        return false;
+        return fourInARowHorizontally() || fourInARowVertically() || fourInARowDiagonally() || fourInARowReverseDiagonally();
     }
 
     private boolean isBoardFull() {
